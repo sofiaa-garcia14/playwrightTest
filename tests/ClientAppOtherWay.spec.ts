@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-test.only("@Web Client App login", async ({ page }) => {
+test("@Web Client App login", async ({ page }) => {
   const email = "anshika@gmail.com";
   const password = "Iamking@000";
   const productName = "ZARA COAT 3";
